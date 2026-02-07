@@ -4,7 +4,7 @@
   "crons": [
     {
       "path": "/api/cron/metrics-report",
-      "schedule": "0 */6 * * *"
+      "schedule": "0 6 * * *"
     },
     {
       "path": "/api/cron/daily-summary",
@@ -12,7 +12,7 @@
     },
     {
       "path": "/api/pipeline/run",
-      "schedule": "*/5 * * * *"
+      "schedule": "0 12 * * *"
     }
   ],
   "functions": {
